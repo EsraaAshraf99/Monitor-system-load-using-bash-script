@@ -1,0 +1,11 @@
+How to perform floating point op in bash?
+
+using bc module with option -l can perform decimal operations
+EX: bc -l     # interactive mode
+    >10/3
+    >3.33333333333333333333
+
+Ex: echo '1.6+98' | bc -l
+    >99.6
+
+
