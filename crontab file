@@ -1,0 +1,4 @@
+$ crontab -e
+
+>*/1     *       *       *       *       uptime | cut -f 5 -d: >> /load.txt
+>*/1     *       *       *       *       bash /load.sh
